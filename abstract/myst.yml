@@ -1,0 +1,51 @@
+version: 1
+project:
+  id: ubcgif-2026-cowan-heagy-kegs
+  title: A 3D finite volume approach for time-domain electromagnetic simulations with thin, highly conductive structures
+  description: Presentation given at KEGS 2026 symposium
+  authors:
+    - name: Devin C. Cowan
+      email: dcowan@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0002-0089-402X
+      affiliation:
+        id: ubc
+        name: Geophysical Inversion Facility, University of British Columbia, Vancouver, British Columbia
+    - name: Lindsey J. Heagy
+      email: lheagy@eoas.ubc.ca
+      corresponding: true
+      orcid: 0000-0002-1551-5926
+      affiliation: ubc
+    - name: Douglas W. Oldenburg
+      affiliation: ubc
+      email: doug@eos.ubc.ca
+      orcid: 0000-0002-4327-2124
+  banner: banner.png
+  thumbnail: thumbnail.png
+  subject: electromagnetics
+  venue:
+    title: Canadian Exploration Geophysics Society (KEGS) 2026 symposium
+  # license: CC-BY-4.0
+  # open_access: true
+  # doi: DOI
+  date: 2025-08-28
+  abbreviations:
+    TDEM: time-domain electromagnetic
+    FV: finite volume
+    HFV: hierarchical finite volume
+  # github:
+  # bibliography: []
+  keywords:
+    - Electromagnetics
+    - Finite volume
+    - Numerical simulation
+site:
+  template: article-theme
+  actions:
+    - title: pdf
+      url: dccowan-kegs-2026.pdf
+      static: true
+    - title: slides
+      url: dccowan-kegs-2026-slides.pdf
+      static: true
+  # domains: []

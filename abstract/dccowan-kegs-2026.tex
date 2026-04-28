@@ -62,7 +62,7 @@ For the hierarchical FV approach, we define a new parameterization for the Earth
 &+ \sum_k^{nE} \, \int_{L_k} \, \vec{u} \cdot \lambda_k \vec{e} \, d\ell
 \end{split}
 \end{equation}
-where $\sigma_k$ defines the conductivity within cell k, $\tau_k$ defines the conductance for face k, and $\lambda_k$ defines the conductivity integrated over the cross-sectional area of a wire element that lives on edge k. Figure \ref{fig:hierarchical_properties} illustrates where volume, face and edge properties live. Assuming cell faces and edges are infinitesimally thin, surface currents normal to surfaces and edge currents normal to edges are negligible. The discrete relationship between the current density and the electric field can be defined as:
+where $\sigma_k$ defines the conductivity within cell $k$, $\tau_k$ defines the conductance for face $k$, and $\lambda_k$ defines the conductivity integrated over the cross-sectional area of a wire element that lives on edge $k$. Figure \ref{fig:hierarchical_properties} illustrates where volume, face and edge properties live. Assuming cell faces and edges are infinitesimally thin, surface currents normal to surfaces and edge currents normal to edges are negligible. The discrete relationship between the current density and the electric field can be defined as:
 \begin{equation}
 \label{eq:hierarchical}
 \int_\Omega \, \vec{u} \cdot \vec{j} \,  dv \approx \big [ \mathbf{M_{e\sigma} + M_{e\tau} + M_{e\lambda}} \big ] \, \mathbf{e}
